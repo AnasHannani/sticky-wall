@@ -63,15 +63,9 @@ git clone https://github.com/AnasHannani/sticky-wall.git
 cd sticky-wall
 2️⃣ Install dependencies:
 
-sh
-Copy
-Edit
 npm install
 3️⃣ Start the development server:
 
-sh
-Copy
-Edit
 npm run dev
 4️⃣ Open http://localhost:5173 in your browser.
 
