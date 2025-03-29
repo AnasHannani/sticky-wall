@@ -75,4 +75,4 @@ npm run dev
 - 📅 Due dates and reminders for tasks
 
 📸 Screenshots
-public/screenshot.png
+![Sticky Wall Preview](public/screenshot.png)
