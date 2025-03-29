@@ -20,7 +20,7 @@ Sticky Wall is a task management application built with React.js and Tailwind CS
 - **Icons:** React Icons  
 
 ## 📂 Project Structure  
-
+```sh
 sticky-wall/ │── 
         src/ │ 
              ├── components/ # Contient les composants principaux de l'application 
@@ -50,10 +50,7 @@ sticky-wall/ │──
              │── package.json 
              │── vite.config.js 
              │── README.md
-
-bash
-Copy
-Edit
+```
 
 ## 📦 Installation & Running  
 
