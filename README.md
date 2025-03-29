@@ -59,7 +59,7 @@ Edit
 
 1️⃣ Clone the repository:  
 ```sh
-git clone https://github.com/yourusername/sticky-wall.git
+git clone https://github.com/AnasHannani/sticky-wall.git
 cd sticky-wall
 2️⃣ Install dependencies:
 
