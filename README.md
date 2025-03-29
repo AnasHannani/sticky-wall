@@ -61,20 +61,21 @@ Edit
 ```sh
 git clone https://github.com/AnasHannani/sticky-wall.git
 cd sticky-wall
+```
 2️⃣ Install dependencies:
-
+```sh
 npm install
+```
 3️⃣ Start the development server:
-
+```sh
 npm run dev
+```
 4️⃣ Open http://localhost:5173 in your browser.
 
 📝 Future Improvements
-🏗️ Drag-and-drop functionality to rearrange notes
-
-☁️ API integration for cloud storage
-
-📅 Due dates and reminders for tasks
+- 🏗️ Drag-and-drop functionality to rearrange notes
+- ☁️ API integration for cloud storage
+- 📅 Due dates and reminders for tasks
 
 📸 Screenshots
-(public/screenshot.png)
+public/screenshot.png
