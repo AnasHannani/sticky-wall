@@ -21,7 +21,35 @@ Sticky Wall is a task management application built with React.js and Tailwind CS
 
 ## 📂 Project Structure  
 
-sticky-wall/ │── src/ │ ├── components/ # Contient les composants principaux de l'application │ │ ├── MainContent/ # Regroupe les composants liés à l'affichage central des tâches │ │ │ ├── AddButton.jsx # Bouton pour ajouter une nouvelle tâche │ │ │ ├── ContentHeader.jsx # En-tête de la section principale │ │ │ ├── MainContent.jsx # Conteneur principal des tâches │ │ │ ├── NoteActions.jsx # Actions sur les tâches (modifier, supprimer) │ │ │ ├── NoteCard.jsx # Carte individuelle pour chaque tâche │ │ │ ├── NoteGrid.jsx # Affichage en grille des notes │ │ │ ├── NoteModal.jsx # Fenêtre modale pour ajouter/modifier une tâche │ │ │ ├── NoteTags.jsx # Gestion des tags d’une note │ │ │ ├── noteUtils.jsx # Fonctions utilitaires pour les tâches │ │ ├── SidePanel/ # Barre latérale pour la recherche, les filtres, ou les catégories │ │ │ ├── sections/ # Sous-dossiers pour organiser les parties de la barre latérale │ │ │ │ ├── components/ # Composants spécifiques à la barre latérale │ │ │ │ │ ├── Lists.jsx # Affichage des listes de tâches │ │ │ │ │ ├── Tags.jsx # Gestion des tags │ │ │ │ │ ├── Tasks.jsx # Affichage des tâches filtrées │ │ │ ├── Header.jsx # En-tête de la barre latérale │ │ │ ├── SearchBar.jsx # Champ de recherche pour filtrer les tâches │ │ │ ├── SidePanel.jsx # Conteneur principal de la barre latérale │ ├── data/ # Gestion des données │ │ ├── DataContext.jsx # Contexte React pour partager les données (tâches, listes, tags) │ ├── pages/ # Pages de l'application │ │ ├── Home.jsx # Page d'accueil regroupant MainContent et SidePanel │── package.json │── vite.config.js │── README.md
+sticky-wall/ │── 
+        src/ │ 
+             ├── components/ # Contient les composants principaux de l'application 
+             │ │ ├── MainContent/ # Regroupe les composants liés à l'affichage central des tâches 
+             │ │ │ ├── AddButton.jsx # Bouton pour ajouter une nouvelle tâche 
+             │ │ │ ├── ContentHeader.jsx # En-tête de la section principale 
+             │ │ │ ├── MainContent.jsx # Conteneur principal des tâches 
+             │ │ │ ├── NoteActions.jsx # Actions sur les tâches (modifier, supprimer) 
+             │ │ │ ├── NoteCard.jsx # Carte individuelle pour chaque tâche 
+             │ │ │ ├── NoteGrid.jsx # Affichage en grille des notes 
+             │ │ │ ├── NoteModal.jsx # Fenêtre modale pour ajouter/modifier une tâche 
+             │ │ │ ├── NoteTags.jsx # Gestion des tags d’une note 
+             │ │ │ ├── noteUtils.jsx # Fonctions utilitaires pour les tâches 
+             │ │ ├── SidePanel/ # Barre latérale pour la recherche, les filtres, ou les catégories 
+             │ │ │ ├── sections/ # Sous-dossiers pour organiser les parties de la barre latérale │
+             │ │ │ ├── components/ # Composants spécifiques à la barre latérale 
+             │ │ │ │ │ ├── Lists.jsx # Affichage des listes de tâches 
+             │ │ │ │ │ ├── Tags.jsx # Gestion des tags 
+             │ │ │ │ │ ├── Tasks.jsx # Affichage des tâches filtrées 
+             │ │ │ ├── Header.jsx # En-tête de la barre latérale 
+             │ │ │ ├── SearchBar.jsx # Champ de recherche pour filtrer les tâches 
+             │ │ │ ├── SidePanel.jsx # Conteneur principal de la barre latérale 
+             │ ├── data/ # Gestion des données 
+             │ │ ├── DataContext.jsx # Contexte React pour partager les données (tâches, listes, tags) 
+             │ ├── pages/ # Pages de l'application 
+             │ │ ├── Home.jsx # Page d'accueil regroupant MainContent et SidePanel 
+             │── package.json 
+             │── vite.config.js 
+             │── README.md
 
 bash
 Copy
@@ -55,4 +83,4 @@ npm run dev
 📅 Due dates and reminders for tasks
 
 📸 Screenshots
-![Sticky Wall Preview](public/screenshot.png)
+(public/screenshot.png)
