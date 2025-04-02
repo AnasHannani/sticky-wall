@@ -7,8 +7,7 @@ import Tags from "./sections/Tags";
 import Header from "./Header";
 
 // Import des icônes
-import { VscSettings } from "react-icons/vsc";      // Icône paramètres
-import { HiOutlineLogout } from "react-icons/hi";   // Icône déconnexion
+import { Settings, Logout } from "../../assets/icons";
 
 function SidePanel() {
   // Récupération des valeurs et fonctions depuis le contexte
@@ -67,13 +66,13 @@ function SidePanel() {
         <ul>
           {/* Option Paramètres */}
           <li className="flex items-center h-12 px-4 hover:bg-gray-200 cursor-pointer">
-            <VscSettings />
+            <Settings />
             <span className="ml-2">Settings</span>
           </li>
           
           {/* Option Déconnexion */}
           <li className="flex items-center h-12 px-4 hover:bg-gray-200 cursor-pointer">
-            <HiOutlineLogout />
+            <Logout />
             <span className="ml-2">Sign out</span>
           </li>
         </ul>

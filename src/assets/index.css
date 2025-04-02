@@ -1,0 +1,21 @@
+
+* {
+  /* margin: 0; */
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+:root {
+  --color-blue-100: #dbeafe;
+  --color-blue-800: #1e40af;
+  --color-red-100: #fee2e2;
+  --color-red-800: #991b1b;
+  --color-yellow-100: #fef9c3;  
+  --color-yellow-800: #92400e;  
+  --color-green-100: #dcfce7;  
+  --color-green-800: #166534;  
+  --color-purple-100: #f3e8ff; 
+  --color-purple-800: #6b21a8;  
+}
+@import "tailwindcss";
+

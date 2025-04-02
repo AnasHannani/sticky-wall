@@ -1,4 +1,4 @@
-// NoteTags.js
+
 function NoteTags({ tagIds = [], allTags = [] }) {
   const getTagById = (id) => allTags.find(tag => tag.id === id);
 

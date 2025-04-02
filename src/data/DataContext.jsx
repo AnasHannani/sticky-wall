@@ -1,8 +1,6 @@
 // Import des dépendances React et des icônes
 import { createContext, useContext, useState, useEffect } from "react";
-import { RiArrowRightDoubleFill, RiStickyNoteFill } from "react-icons/ri";
-import { FaTasks } from "react-icons/fa";
-import { FaCalendarDays } from "react-icons/fa6";
+import { ArrowRightDouble, CalendarDays, StickyNote, Tasks } from "../assets/icons"; // Importation des icônes
 
 // 1. Création du contexte d'application
 const AppContext = createContext();
@@ -25,10 +23,10 @@ export const AppProvider = ({ children }) => {
   // ========== Données des tâches ==========
   const [activeTask, setActiveTask] = useState(3); // Tâche active sélectionnée
   const tasks = [ // Liste des tâches prédéfinies
-    { name: "Upcoming", icon: <RiArrowRightDoubleFill />, amount: 12 },
-    { name: "Today", icon: <FaTasks />, amount: 5 },
-    { name: "Calendar", icon: <FaCalendarDays />, amount: 0 },
-    { name: "Sticky Wall", icon: <RiStickyNoteFill />, amount: 0 },
+    { name: "Upcoming", icon: <ArrowRightDouble />, amount: 12 },
+    { name: "Today", icon: <Tasks />, amount: 5 },
+    { name: "Calendar", icon: <CalendarDays />, amount: 0 },
+    { name: "Sticky Wall", icon: <StickyNote />, amount: 0 },
   ];
 
   // ========== Initialisation des données ==========

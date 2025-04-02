@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import SectionHeader from "./components/SectionHeader";
 import { useApp } from "../../../data/DataContext";
+import { Edit, Delete } from "../../../assets/icons"; // Import des icônes d'édition et de suppression
 
 const Tags = () => {
   const { 
@@ -132,19 +133,7 @@ const Tags = () => {
                   startEditing(index);
                 }}
               >
-                <svg
-                  className="h-3 w-3"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                  />
-                </svg>
+                <Edit className="h-3 w-3"/>
               </button>
               <button
                 className="ml-1 rounded-full bg-white p-0.5 text-gray-500 hover:text-red-600"
@@ -153,19 +142,7 @@ const Tags = () => {
                   onDeleteTag(index);
                 }}
               >
-                <svg
-                  className="h-3 w-3"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <Delete className="h-3 w-3"/>
               </button>
             </div>
           </div>

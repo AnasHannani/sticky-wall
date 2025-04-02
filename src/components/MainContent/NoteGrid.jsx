@@ -1,6 +1,6 @@
 // Import des composants enfants nécessaires
 import NoteCard from "./NoteCard";    // Composant pour l'affichage d'une note individuelle
-import AddButton from "./AddButton";  // Composant pour le bouton d'ajout de note
+import ButtonAddNote from "./ButtonAddNote";  // Composant pour le bouton d'ajout de note
 
 // Définition du composant NoteGrid avec ses props
 function NoteGrid({ 
@@ -33,7 +33,7 @@ function NoteGrid({
         
         {/* Bouton d'ajout (masqué pendant une recherche) */}
         {!isSearching && (
-          <AddButton 
+          <ButtonAddNote 
             onClick={handleAddNote}  // Gestionnaire de clic pour ajouter une note
             className="h-60"         // Hauteur fixe pour correspondre aux cartes de notes
           />
