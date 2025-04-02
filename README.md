@@ -1,5 +1,7 @@
 # 📝 Sticky Wall - Task Management App  
 
+https://anashannani.github.io/sticky-wall/
+
 Sticky Wall is a task management application built with React.js and Tailwind CSS. It allows users to create, manage, and organize tasks as interactive sticky notes.
 
 ## 🚀 Features  
@@ -15,7 +17,7 @@ Sticky Wall is a task management application built with React.js and Tailwind CS
 ## 🛠️ Tech Stack  
 
 - **Frontend:** React 19, Tailwind CSS  
-- **State Management:** React Context API  
+- **State Management:** React Context
 - **Build Tool:** Vite  
 - **Icons:** React Icons  
 
