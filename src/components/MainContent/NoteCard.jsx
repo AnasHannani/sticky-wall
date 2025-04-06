@@ -1,5 +1,5 @@
 // Import des dépendances
-import { useApp } from "../../data/DataContext";  // Contexte d'application
+import { useApp } from "../../hooks/useApp"; // Contexte d'application
 import NoteActions from "./NoteActions";          // Composant des actions de note
 
 // Définition du composant NoteCard avec ses props

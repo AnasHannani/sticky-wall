@@ -1,5 +1,5 @@
 import SectionHeader from "./components/SectionHeader";
-import { useApp } from "../../../data/DataContext";
+import { useApp } from "../../../hooks/useApp"; // Import du hook personnalisé
 
 const Tasks = () => {
   const { tasks, activeTask, setActiveTask, setPageTitle } = useApp();

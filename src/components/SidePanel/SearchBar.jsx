@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useApp } from "../../data/DataContext";
+import { useApp } from "../../hooks/useApp";
 import { Search } from "../../assets/icons"; // Importation de l'icône de recherche
 
 const SearchBar = () => {

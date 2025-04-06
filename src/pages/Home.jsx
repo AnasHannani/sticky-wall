@@ -2,7 +2,7 @@
 import SidePanel from "../components/Sidepanel/SidePanel";
 import MainContent from "../components/MainContent/MainContent";
 // Import du contexte d'application pour gérer l'état global
-import { useApp } from "../data/DataContext";
+import { useApp } from "../hooks/useApp";
 
 function Home() {
   // Récupération des états et fonctions du contexte

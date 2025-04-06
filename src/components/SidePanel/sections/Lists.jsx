@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import SectionHeader from "./components/SectionHeader";
-import { useApp } from "../../../data/DataContext";
+import { useApp } from "../../../hooks/useApp";
 import { Edit, Delete } from "../../../assets/icons"; // Import des icônes d'édition et de suppression
 
 const Lists = () => {

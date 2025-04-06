@@ -1,4 +1,4 @@
-import { useApp } from '../../data/DataContext';
+import { useApp } from "../../hooks/useApp";
 import SearchBar from './SearchBar';  // or appropriate path
 
 

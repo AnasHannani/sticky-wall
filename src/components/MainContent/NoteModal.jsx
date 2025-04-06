@@ -1,6 +1,6 @@
 // Import des dépendances React et du contexte
 import { useState, useEffect } from "react";
-import { useApp } from "../../data/DataContext";
+import { useApp } from "../../hooks/useApp";
 
 function NoteModal({ isOpen, onClose, note = null, onSave }) {
   // Récupération des données et fonctions depuis le contexte

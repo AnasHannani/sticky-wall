@@ -1,6 +1,6 @@
 // Import des dépendances React et des composants nécessaires
 import { useState } from "react";
-import { useApp } from "../../data/DataContext";
+import { useApp } from "../../hooks/useApp";
 import NoteModal from "./NoteModal";
 import ContentHeader from "./ContentHeader";
 import NoteGrid from "./NoteGrid";
