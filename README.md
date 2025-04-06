@@ -57,9 +57,17 @@ sticky-wall/
         │   │   │   ├── Tags.jsx        # Component for displaying and filtering by tags in the SidePanel
         │   │   │   └── Tasks.jsx       # Component for displaying tasks or similar items in the SidePanel
         │   │   └── MainContent.jsx     # Container component for the main content area (likely holds NoteGrid, ContentHeader)
-        │   ├── context/                # React Context API for global/shared state management
-        │   │   └── DataContext.jsx     # Provides application data (notes, tags, user info, etc.) via context
-        │   ├── hooks/                  # Custom reusable React hooks (e.g., useFetch, useLocalStorage, useDebounce)
+        │   ├── hooks/                 # New directory for custom hooks
+        │   │   ├── usePersistentState.js # Utility hook for localStorage
+        │   │   ├── useUIState.js       # Manages UI state (menu, title)
+        │   │   ├── useTasksState.js    # Manages static tasks and active task
+        │   │   ├── useListsState.js    # Manages lists state and CRUD
+        │   │   ├── useTagsState.js     # Manages tags state and CRUD
+        │   │   ├── useNotesState.js    # Manages notes state, config, and CRUD
+        │   │   ├── useSearchState.js   # Manages search state and logic
+        │   │   └── useApp.js           # The main hook to access the combined context
+        │   ├── contexts/              # New directory for context definitions
+        │   │   └── AppContext.jsx      # Defines Context and Provider
         │   ├── pages/                  # Top-level route components, representing distinct application screens/views
         │   │   └── Home.jsx            # The main page/view of the application (renders layout, main content, etc.)
         │   ├── services/               # (OPTIONAL) Functions for interacting with external APIs or backend services
